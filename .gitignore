@@ -1,0 +1,6 @@
+#output
+*.pdf
+template.tex
+
+#uploader script
+uploader.sh

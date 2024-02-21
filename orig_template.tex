@@ -1,0 +1,164 @@
+\documentclass[12pt]{article}
+
+\usepackage{geometry}
+\geometry{left=0.5cm, right=0.5cm, top=1.5cm, bottom=1.5cm}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\begin{document}
+
+\begin{center}
+
+\begin{tikzpicture}[  box/.style={    draw,    minimum width=8cm,    minimum height=7cm,    align=left  }]
+
+\node[box] (a) {
+  \fontsize{14}{12}
+  \textbf{ScenName}
+  \vspace{0.5cm}
+
+  \\
+  \\
+  \\
+
+  \fontsize{14}{12}
+  \textbf{Allergies:}
+  \vspace{0.5cm}
+  \fontsize{16}{12}
+  \color{red}AllergyName
+
+  \\
+  \\
+  
+  \fontsize{14}{12}
+  \textbf{DOB:}
+  \vspace{1cm}
+  \rule{3cm}{0.15mm}
+};
+
+\node[box, right=of a] (b) {
+  \fontsize{14}{12}
+  \textbf{ScenName}
+  \vspace{0.5cm}
+
+  \\
+  \\
+  \\
+
+  \fontsize{14}{12}
+  \textbf{Allergies:}
+  \vspace{0.5cm}
+  \fontsize{16}{12}
+  \color{red}AllergyName
+
+  \\
+  \\
+  
+  \fontsize{14}{12}
+  \textbf{DOB:}
+  \vspace{1cm}
+  \rule{3cm}{0.15mm}
+};
+
+\node[box, below=of a] (c) {
+  \fontsize{14}{12}
+  \textbf{ScenName}
+  \vspace{0.5cm}
+
+  \\
+  \\
+  \\
+
+  \fontsize{14}{12}
+  \textbf{Allergies:}
+  \vspace{0.5cm}
+  \fontsize{16}{12}
+  \color{red}AllergyName
+
+  \\
+  \\
+  
+  \fontsize{14}{12}
+  \textbf{DOB:}
+  \vspace{1cm}
+  \rule{3cm}{0.15mm}
+};
+
+\node[box, right=of c] (d) {
+  \fontsize{14}{12}
+  \textbf{ScenName}
+  \vspace{0.5cm}
+
+  \\
+  \\
+  \\
+
+  \fontsize{14}{12}
+  \textbf{Allergies:}
+  \vspace{0.5cm}
+  \fontsize{16}{12}
+  \color{red}AllergyName
+
+  \\
+  \\
+  
+  \fontsize{14}{12}
+  \textbf{DOB:}
+  \vspace{1cm}
+  \rule{3cm}{0.15mm}
+};
+
+\node[box, below=of c] (e) {
+  \fontsize{14}{12}
+  \textbf{ScenName}
+  \vspace{0.5cm}
+
+  \\
+  \\
+  \\
+
+  \fontsize{14}{12}
+  \textbf{Allergies:}
+  \vspace{0.5cm}
+  \fontsize{16}{12}
+  \color{red}AllergyName
+
+  \\
+  \\
+  
+  \fontsize{14}{12}
+  \textbf{DOB:}
+  \vspace{1cm}
+  \rule{3cm}{0.15mm}
+};
+
+\node[box, right=of e] (f) {
+  \fontsize{14}{12}
+  \textbf{ScenName}
+  \vspace{0.5cm}
+
+  \\
+  \\
+  \\
+
+  \fontsize{14}{12}
+  \textbf{Allergies:}
+  \vspace{0.5cm}
+  \fontsize{16}{12}
+  \color{red}AllergyName
+
+  \\
+  \\
+  
+  \fontsize{14}{12}
+  \textbf{DOB:}
+  \vspace{1cm}
+  \rule{3cm}{0.15mm}
+};
+
+\end{tikzpicture}
+
+\end{center}
+
+\end{document}
+
