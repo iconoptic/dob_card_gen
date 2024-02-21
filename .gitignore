@@ -1,5 +1,5 @@
 #output
-*.pdf
+/*.pdf
 template.tex
 
 #uploader script
